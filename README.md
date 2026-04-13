@@ -35,6 +35,12 @@ The project goes beyond simple timers by integrating **Telegram Bot control**, a
 | **Rain Sensor** | Digital In | `GPIO 34` |
 | **System Power** | 5V & GND | `VIN / 5V` & `GND` |
 
+To ensure the system operates reliably, follow the wiring diagram below. The ESP32 controls the 3-channel relay module via GPIOs 27, 32, and 33, while the rain sensor is monitored through GPIO 34.
+
+### Electrical Schematic
+![Smart Irrigation Schematic](./Electrical_diagram.jpg)
+
+> **Note:** Make sure all components share a common Ground (GND). Since the solenoid valves and the ESP32 are both powered at 5V, ensure your power supply can provide at least 2A to handle the peak current when multiple valves are active.
 
 ## ⚙️ How to Install and Run
 
