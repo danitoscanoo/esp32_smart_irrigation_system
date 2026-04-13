@@ -42,7 +42,7 @@ To ensure the system operates reliably, follow the wiring diagram below. The ESP
 
 > **Note:** Make sure all components share a common Ground (GND). Since the solenoid valves and the ESP32 are both powered at 5V, ensure your power supply can provide at least 2A to handle the peak current when multiple valves are active.
 
-## ⚙️ How to Install and Run
+## How to Install and Run
 
 ### Prerequisites
 * **Hardware:** ESP32 Development Board, relay module, solenoid valves, rain sensor, and power supply (see the BOM above).
