@@ -35,7 +35,6 @@ The project goes beyond simple timers by integrating **Telegram Bot control**, a
 | **Rain Sensor** | Digital In | `GPIO 34` |
 | **System Power** | 5V & GND | `VIN / 5V` & `GND` |
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## ⚙️ How to Install and Run
 
@@ -82,7 +81,6 @@ The project goes beyond simple timers by integrating **Telegram Bot control**, a
 6. **Monitor and Test**
    Once the upload is complete, open the **Serial Monitor** and set the baud rate to `115200`. You should see the boot logs, successful WiFi connection, NTP synchronization, and the Telegram bot initialization.
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🤝 Contributing
 This is a personal portfolio project, but suggestions, bug reports, or pull requests are always welcome!
