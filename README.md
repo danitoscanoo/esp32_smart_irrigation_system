@@ -87,6 +87,9 @@ To ensure the system operates reliably, follow the wiring diagram below. The ESP
 6. **Monitor and Test**
    Once the upload is complete, open the **Serial Monitor** and set the baud rate to `115200`. You should see the boot logs, successful WiFi connection, NTP synchronization, and the Telegram bot initialization.
 
+## Known Issues
+
+While the system is designed with robustness features like a Watchdog Timer (WDT), it has been observed that in very specific and uncommon conditions, the code may unresponsively freeze without the WDT triggering a system reset. This issue seems to correlate with significant response delays or unresponsiveness from the Telegram API servers during function calls such as `bot.getUpdates()` or `bot.sendMessage()`. We are actively monitoring this behavior to improve system reliability.
 
 ## 🤝 Contributing
 This is a personal portfolio project, but suggestions, bug reports, or pull requests are always welcome!
